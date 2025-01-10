@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Pengelolaan Pengaduan Masyarakat</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="img/logo.jpeg" alt="Logo Pelayanan" class="logo">
+        <h1>Sistem Pengelolaan Pengaduan Masyarakat</h1>
+        <p>Solusi cepat untuk melayani keluhan masyarakat</p>
+    </header>
+    <main>
+        <section class="form-section">
+            <h2>Form Pengaduan</h2>
+            <form>
+                <label for="name">Nama</label>
+                <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+
+                <label for="category">Kategori Pengaduan</label>
+                <select id="category" name="category" required>
+                    <option value="pelayanan">Pelayanan</option>
+                    <option value="fasilitas">Fasilitas</option>
+                    <option value="administrasi">Administrasi</option>
+                </select>
+
+                <label for="message">Pesan</label>
+                <textarea id="message" name="message" rows="5" placeholder="Masukkan pengaduan Anda" required></textarea>
+
+                <button type="submit">Kirim Pengaduan</button>
+            </form>
+        </section>
+
+        <section class="icons-section">
+            <h2>Kategori Pengaduan</h2>
+            <div class="icon-boxes">
+                <div class="icon-box">
+                    <a href="pelayanan.html">
+                        <img src="img/service.jpeg" alt="Pelayanan" class="icon">
+                        <h4>Pelayanan</h4>
+                        <p>Laporkan pengaduan terkait pelayanan publik.</p>
+                    </a>
+                </div>
+                <div class="icon-box">
+                    <a href="infrastruktur.html">
+                        <img src="img/infrastruktur.jpeg" alt="Infrastruktur" class="icon">
+                        <h4>Infrastruktur</h4>
+                        <p>Laporan terkait fasilitas umum atau infrastruktur.</p>
+                    </a>
+                </div>
+                <div class="icon-box">
+                    <a href="administrasi.html">
+                        <img src="img/admin.jpeg" alt="Administrasi" class="icon">
+                        <h4>Administrasi</h4>
+                        <p>Pengaduan mengenai pelayanan administrasi.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="data-section">
+            <h2>Data Diri</h2>
+            <img src="img/data.jpeg" alt="Foto Profil" class="profile-pic">
+            <p><strong>Nama:</strong> Andi Yuthi Karima. M</p>
+            <p><strong>NIM:</strong> 42623043</p>
+            <p><strong>Jurusan:</strong> Teknik Informatika dan Komputer</p>
+            <p><strong>Prodi:</strong> Teknik Multimedia dan Jaringan</p>
+            <p>Kunjungi Medsos Saya:</p>
+            <ul class="social-links">
+                <li><a href="https://www.instagram.com/andiiyuthy?igsh=MWt0MWk5c2FyMGNvbQ==" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></li>
+                <li><a href="https://www.tiktok.com/@yutxtio?_t=ZS-8svpohFzPGS&_r=1" target="_blank"><i class="bi bi-tiktok"></i> TikTok</a></li>
+                <li><a href="https://whatsapp.com/dl/" target="_blank"><i class="bi bi-whatsapp"></i> WhatsApp</a></li>
+            </ul>
+        </section>
+
+        <section class="pengaduan-section">
+            <h2>Daftar Pengaduan</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nama</th>
+                        <th>Email</th>
+                        <th>Kategori</th>
+                        <th>Pesan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Agus Buntung</td>
+                        <td>agus@gmail.com</td>
+                        <td>Pelayanan</td>
+                        <td>Pelayanannya tidak sopan, dia cuekin saya ga tau kenapa. Tamplek dong!</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Sistem Pengelolaan Pengaduan Masyarakat. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
